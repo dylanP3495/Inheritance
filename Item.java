@@ -6,7 +6,9 @@
  * @version 1.2
  */
 import java.util.ArrayList;
-public class Item implements ItemInterface{
+public abstract class Item implements ItemInterface{
     //Implemented in your own way
-
+    public Item(String getName, ArrayList getStats){
+        System.out.println(name);
+    }
 }
