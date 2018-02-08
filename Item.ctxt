@@ -1,8 +1,5 @@
 #BlueJ class context
-comment0.params=
-comment0.target=Item()
-comment1.params=
-comment1.target=java.lang.String\ getName()
-comment2.params=
-comment2.target=java.util.ArrayList\ getStats()
-numComments=3
+comment0.target=Item
+comment1.params=getName\ getStats
+comment1.target=Item(java.lang.String,\ java.util.ArrayList)
+numComments=2
