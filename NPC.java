@@ -5,7 +5,7 @@
  * @author (your name here)
  * @version (version number or date here)
  */
-public abstract class NPC implements CharacterInterface
+public abstract class NPC
 {
     
 }

@@ -6,10 +6,11 @@
  * @version 2.8.18
  */
 
-public class Clucky extends NPC{
+public class Clucky extends NPC
+{
 
     public  String getCharRace(){
-        String CharRace (HighElf);
+        String CharRace(HighElf);
         return CharRace;
     }
 
