@@ -5,7 +5,7 @@
  * @author (your name here)
  * @version (version number or date here)
  */
-public abstract class melee
+public abstract class melee extends Weapon
 {
     // instance variables - replace the example below with your own
     private int x;
