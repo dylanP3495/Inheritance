@@ -2,10 +2,9 @@
 /**
  * Write a description of class PegLeg here.
  *
- * @author (your name)
- * @version (a version number or a date)
+ * @author Dylan Palafox
+ * @version 2.14.18
  */
-public class PegLeg extends improvisedWeapon
-{
+public class PegLeg extends impWeapon{
 
 }

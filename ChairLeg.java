@@ -5,7 +5,7 @@
  * @author (your name here)
  * @version (version number or date here)
  */
-public class ChairLeg extends improvisedWeapon
+public class ChairLeg extends impWeapon
 {
     // instance variables - replace the example below with your own
     private int x;

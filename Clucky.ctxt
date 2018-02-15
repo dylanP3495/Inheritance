@@ -1,4 +1,6 @@
 #BlueJ class context
 comment0.target=Clucky
-comment0.text=\r\n\ Write\ a\ description\ of\ class\ Clucky\ here.\r\n\r\n\ @author\ (your\ name)\r\n\ @version\ (a\ version\ number\ or\ a\ date)\r\n
-numComments=1
+comment0.text=\r\n\ Write\ a\ description\ of\ class\ Clucky\ here.\r\n\r\n\ @author\ Dylan\r\n\ @version\ 2.8.18\r\n
+comment1.params=CharRace\ CharClass\ multiClass
+comment1.target=Clucky(java.lang.String,\ java.lang.String,\ boolean)
+numComments=2

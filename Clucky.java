@@ -8,18 +8,7 @@
 
 public class Clucky extends NPC
 {
-
-    public  String getCharRace(){
-        String CharRace = "HighElf";
-        return CharRace;
-    }
-
-    public  String getCharClass(){
-        String CharClass = "Wizard)"
-    }
-
-    public boolean multiClass(){
-        boolean isMultiClass = true;
-        return isMultiClass;
+    public Clucky(String CharRace, String CharClass, boolean multiClass){
+     super(CharRace, CharClass, multiClass);
     }
 }
