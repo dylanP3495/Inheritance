@@ -5,7 +5,7 @@
  * @author (your name)
  * @version (a version number or a date)
  */
-public abstract class crossbow
+public abstract class crossbow extends ranged
 {
     // instance variables - replace the example below with your own
     private int x;

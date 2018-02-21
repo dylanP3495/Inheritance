@@ -2,10 +2,10 @@
 /**
  * Write a description of class glaive here.
  *
- * @author (your name)
- * @version (a version number or a date)
+ * @author Dylan Palafox
+ * @version 
  */
-public class glaive
+public class glaive extends twoHand
 {
     // instance variables - replace the example below with your own
     private int x;

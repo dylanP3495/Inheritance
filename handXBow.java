@@ -5,7 +5,8 @@
  * @author (your name)
  * @version (a version number or a date)
  */
-public class handXBow
+public class handXBow extends crossbow
+
 {
     // instance variables - replace the example below with your own
     private int x;

@@ -2,8 +2,8 @@
 /**
  * Write a description of class oneHand here.
  *
- * @author (your name)
- * @version (a version number or a date)
+ * @author Dylan Palafox
+ * @version 2.15.18
  */
 public class oneHand extends melee
 {

@@ -2,8 +2,8 @@
 /**
  * Abstract class Cheeses - write a description of the class here
  *
- * @author (your name here)
- * @version (version number or date here)
+ * @author Dylan Palafox
+ * @version 2.15.18
  */
 public abstract class Cheeses extends Item
 {
