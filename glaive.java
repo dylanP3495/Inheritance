@@ -3,7 +3,7 @@
  * Write a description of class glaive here.
  *
  * @author Dylan Palafox
- * @version 
+ * @version 2.22.18
  */
 public class glaive extends twoHand
 {

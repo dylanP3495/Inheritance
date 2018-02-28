@@ -2,8 +2,8 @@
 /**
  * Write a description of class BlueCheese here.
  *
- * @author (your name)
- * @version (a version number or a date)
+ * @author Dylan Palafox
+ * @version 2.28.18
  */
 public class BlueCheese extends Cheeses
 {

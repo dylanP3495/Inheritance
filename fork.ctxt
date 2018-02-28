@@ -1,4 +1,8 @@
 #BlueJ class context
 comment0.target=fork
-comment0.text=\r\n\ Abstract\ class\ fork\ -\ write\ a\ description\ of\ the\ class\ here\r\n\r\n\ @author\ Dylan\ Palafox\r\n\ @version\ 2.13.18\r\n
-numComments=1
+comment0.text=\r\n\ Abstract\ class\ fork\ -\ write\ a\ description\ of\ the\ class\ here\r\n\r\n\ @author\ Dylan\ Palafox\r\n\ @version\ 2.14.18\r\n
+comment1.params=dmg
+comment1.target=fork(int)
+comment2.params=
+comment2.target=void\ forkAttack()
+numComments=3

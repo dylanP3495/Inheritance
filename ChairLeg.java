@@ -7,18 +7,13 @@
  */
 public class ChairLeg extends impWeapon
 {
-    // instance variables - replace the example below with your own
-    private int x;
-
-    /**
-     * An example of a method - replace this comment with your own
-     *
-     * @param  y  a sample parameter for a method
-     * @return    the sum of x and y
-     */
-    public int sampleMethod(int y)
-    {
-        // put your code here
-        return x + y;
+    String name = "Chair leg";
+    int dmg = 4;
+    public ChairLeg(int dmg){
+        super (dmg);
+    }
+    
+    public void chairLegAttack(){
+        System.out.println("You hit them with your"+ name +". You did 4 damage. Congrats bud.");
     }
 }

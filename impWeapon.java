@@ -7,9 +7,18 @@
  */
 public abstract class impWeapon implements WeaponInterface
 {
-    int dmg;
+    public int attack(){
+        int dmg = 0;
+        return dmg;
+    }
     
-    public impWeapon(int dmg,int attack, boolean parry){
-        this.dmg = dmg;
+    public boolean parry(){
+        boolean parry = false;
+        return parry;
+    }
+    
+    int dmg;
+    public impWeapon(int dmg){
+     this.dmg = dmg;   
     }
 }

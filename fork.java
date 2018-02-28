@@ -7,5 +7,12 @@
  */
 public class fork extends impWeapon
 {
-    int dmg = 5;
+    String name = "Fork (of dooom)(not for pie)(For stabbing)";
+    public fork(int dmg){
+        super (dmg);
+    }
+    
+    public void forkAttack(){
+        System.out.println("You hit them with your"+ name +". You did 4 damage. Congrats bud.");
+    }
 }

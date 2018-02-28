@@ -1,0 +1,8 @@
+#BlueJ class context
+comment0.target=ProstheticArm
+comment0.text=\r\n\ Write\ a\ description\ of\ class\ ProstheticLimb\ here.\r\n\r\n\ @author\ Dylan\r\n\ @version\ \r\n
+comment1.params=dmg
+comment1.target=ProstheticArm(int)
+comment2.params=
+comment2.target=void\ ProstheticArmAttack()
+numComments=3

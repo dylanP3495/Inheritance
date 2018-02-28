@@ -1,0 +1,6 @@
+#BlueJ class context
+comment0.target=Dice
+comment0.text=\r\n\ Write\ a\ description\ of\ class\ Dice\ here.\r\n\r\n\ @author\ Dylan\ Palafox\r\n\ @version\ 2.22.18\r\n
+comment1.params=
+comment1.target=int\ d4()
+numComments=2
