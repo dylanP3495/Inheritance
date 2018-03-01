@@ -7,8 +7,13 @@
  */
 public abstract class Cheeses extends Item
 {
-    public Cheeses (String getName, ArrayList getStats)
+    public Cheeses ()
     {
         
+    }
+    
+    public String name()
+     String name = "";
+     return name;
     }
 }
