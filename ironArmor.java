@@ -1,19 +1,19 @@
 
 /**
- * Write a description of class DragonCheese here.
+ * Write a description of class ironArmor here.
  *
  * @author (your name)
  * @version (a version number or a date)
  */
-public class DragonCheese extends Cheeses
+public class ironArmor
 {
     // instance variables - replace the example below with your own
     private int x;
 
     /**
-     * Constructor for objects of class DragonCheese
+     * Constructor for objects of class ironArmor
      */
-    public DragonCheese()
+    public ironArmor()
     {
         // initialise instance variables
         x = 0;

@@ -1,19 +1,19 @@
 
 /**
- * Write a description of class BlueCheese here.
+ * Write a description of class steelArmor here.
  *
- * @author Dylan Palafox
- * @version 2.28.18
+ * @author (your name)
+ * @version (a version number or a date)
  */
-public class BlueCheese extends Cheeses
+public class steelArmor
 {
     // instance variables - replace the example below with your own
     private int x;
 
     /**
-     * Constructor for objects of class BlueCheese
+     * Constructor for objects of class steelArmor
      */
-    public BlueCheese()
+    public steelArmor()
     {
         // initialise instance variables
         x = 0;

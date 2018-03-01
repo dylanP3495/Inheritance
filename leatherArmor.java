@@ -1,19 +1,19 @@
 
 /**
- * Write a description of class AmericanCheese here.
+ * Write a description of class leatherArmor here.
  *
  * @author (your name)
  * @version (a version number or a date)
  */
-public class AmericanCheese extends Cheeses
+public class leatherArmor
 {
     // instance variables - replace the example below with your own
     private int x;
 
     /**
-     * Constructor for objects of class AmericanCheese
+     * Constructor for objects of class leatherArmor
      */
-    public AmericanCheese()
+    public leatherArmor()
     {
         // initialise instance variables
         x = 0;

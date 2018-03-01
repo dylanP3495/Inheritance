@@ -7,7 +7,13 @@
  */
 public class shortbow extends ranged
 {
-    public shortbow(){
-        
+    String name = "Shortbow";
+
+    public shortbow(int dmg){
+        super (dmg);
+    }
+    
+        public void shortbowAttack(){
+        System.out.println("You hit them with your"+ name +". You did 4 damage. Congrats bud.");
     }
 }
