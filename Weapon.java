@@ -16,7 +16,6 @@ public abstract class Weapon implements WeaponInterface
         boolean parry = false;
         return parry;
     }
-    
     int dmg;
     public Weapon(int dmg){
      this.dmg = dmg;   

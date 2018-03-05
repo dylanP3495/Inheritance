@@ -4,5 +4,5 @@ comment0.text=\r\n\ Write\ a\ description\ of\ class\ PegLeg\ here.\r\n\r\n\ @au
 comment1.params=dmg
 comment1.target=PegLeg(int)
 comment2.params=
-comment2.target=void\ pegLegAttack()
+comment2.target=void\ Attack()
 numComments=3

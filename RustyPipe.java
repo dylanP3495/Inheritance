@@ -6,13 +6,20 @@
  * @version 2.14.18
  */
 public class RustyPipe extends impWeapon{
-    int dmg = 4;
+
     String name = "Rusty Pipe";
     public RustyPipe(int dmg){
         super(dmg);
     }
     
-    public void pipeAttack(){
+    public void Attack(){
+        int roll = Dice.d20();
+        int dmg;
+        if(roll >= 19){
+            dmg = Dice.d4() + Dice.d4();
+        }else{
+            dmg = Dice.d4();
+        }
         System.out.println("You hit them with your"+ name +". You did 4 damage. Congrats bud.");
     }
 }

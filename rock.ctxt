@@ -3,4 +3,6 @@ comment0.target=rock
 comment0.text=\r\n\ Write\ a\ description\ of\ class\ rock\ here.\r\n\r\n\ @author\ Dylan\r\n\ @version\ 2.27.18\r\n
 comment1.params=dmg
 comment1.target=rock(int)
-numComments=2
+comment2.params=
+comment2.target=void\ Attack()
+numComments=3

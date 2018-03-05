@@ -17,8 +17,7 @@ public abstract class crossbow extends ranged
         return parry;
     }
     
-    int dmg;
     public crossbow(int dmg){
-     this.dmg = dmg;
+     super(dmg);
     }
 }

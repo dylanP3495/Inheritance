@@ -7,5 +7,7 @@
  */
 public abstract class ranged extends Weapon
 {
-    
+    public ranged (int dmg){
+     super(dmg);   
+    }
 }

@@ -4,5 +4,5 @@ comment0.text=\r\n\ Abstract\ class\ fork\ -\ write\ a\ description\ of\ the\ cl
 comment1.params=dmg
 comment1.target=fork(int)
 comment2.params=
-comment2.target=void\ forkAttack()
+comment2.target=void\ Attack()
 numComments=3
