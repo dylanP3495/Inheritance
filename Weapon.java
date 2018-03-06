@@ -13,7 +13,7 @@ public abstract class Weapon implements WeaponInterface
     }
     
     public boolean parry(){
-        boolean parry = false;
+        boolean parry = true;
         return parry;
     }
     int dmg;

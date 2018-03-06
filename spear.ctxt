@@ -1,0 +1,8 @@
+#BlueJ class context
+comment0.target=spear
+comment0.text=\r\n\ Its\ a\ spear.\ IDK\ what\ else\ to\ say...\r\n\r\n\ @author\ Dylan\ Palafox\r\n\ @version\ 3.6.18\r\n
+comment1.params=dmg
+comment1.target=spear(int)
+comment2.params=
+comment2.target=void\ Attack()
+numComments=3

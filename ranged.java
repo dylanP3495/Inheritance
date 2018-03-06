@@ -10,4 +10,8 @@ public abstract class ranged extends Weapon
     public ranged (int dmg){
      super(dmg);   
     }
+    public boolean parry(){
+        boolean parry  =  false;
+        return parry;
+    }
 }

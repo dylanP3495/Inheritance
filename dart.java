@@ -1,33 +1,26 @@
 
 /**
- * Write a description of class dart here.
+ * To show off your extreme pub game skills.
  *
- * @author (your name)
- * @version (a version number or a date)
+ * @author Dylan 
+ * @version 3.6.18
  */
 public class dart extends ranged
 {
-    // instance variables - replace the example below with your own
-    private int x;
-
-    /**
-     * Constructor for objects of class dart
-     */
-    public dart()
+    String name = "Dart";
+    public dart(int dmg)
     {
-        // initialise instance variables
-        x = 0;
+        super(dmg);
     }
 
-    /**
-     * An example of a method - replace this comment with your own
-     *
-     * @param  y  a sample parameter for a method
-     * @return    the sum of x and y
-     */
-    public int sampleMethod(int y)
-    {
-        // put your code here
-        return x + y;
+            public void Attack(){
+        int roll = Dice.d20();
+        int dmg;
+        if(roll >= 19){
+            dmg = Dice.d4() + Dice.d4();
+        }else{
+            dmg = Dice.d4();
+        }
+        System.out.println("You hit them with your"+ name +". You did "+ dmg +" damage. Congrats bud.");
     }
 }

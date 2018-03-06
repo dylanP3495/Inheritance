@@ -13,7 +13,7 @@ public abstract class impWeapon implements WeaponInterface
     }
     
     public boolean parry(){
-        boolean parry = false;
+        boolean parry = true;
         return parry;
     }
     

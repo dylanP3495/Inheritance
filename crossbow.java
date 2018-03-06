@@ -8,8 +8,8 @@
 public abstract class crossbow extends ranged
 {
     public int attack(){
-        int attack = 0;
-        return attack;
+        int dmg = 0;
+        return dmg;
     }
     
     public boolean parry(){

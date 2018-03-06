@@ -1,17 +1,19 @@
 
 /**
- * Write a description of class handXBow here.
+ * Its a spear. IDK what else to say...
  *
- * @author Dylan
- * @version 2.27.18
+ * @author Dylan Palafox
+ * @version 3.6.18
  */
-public class handXBow extends crossbow
+public class spear extends ranged
+
 {
-    String name = "Hand Crossbow";
-    public handXBow(int dmg){
-        super (dmg);
+    String name = "Spear";
+    public spear(int dmg)
+    {
+        super(dmg);
     }
-    
+
     public void Attack(){
         int roll = Dice.d20();
         int dmg;

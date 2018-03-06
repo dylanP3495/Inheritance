@@ -1,18 +1,19 @@
 
 /**
- * Write a description of class rock here.
+ * For catching fish. And dirty scum.
  *
  * @author Dylan
- * @version 2.27.18
+ * @version 3.6.18
  */
-public class rock extends impWeapon
+public class net extends ranged
 {
-    String name = "rock";
-    public rock(int dmg){
-        super (dmg);
+    String name = "Net (of doom)";
+    public net(int dmg)
+    {
+        super(dmg);
     }
-    
-        public void Attack(){
+
+    public void Attack(){
         int roll = Dice.d20();
         int dmg;
         if(roll >= 19){
@@ -22,6 +23,4 @@ public class rock extends impWeapon
         }
         System.out.println("You hit them with your"+ name +". You did 4 damage. Congrats bud.");
     }
-    
-    
 }
