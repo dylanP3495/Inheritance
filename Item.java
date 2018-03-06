@@ -8,7 +8,12 @@
 import java.util.ArrayList;
 public abstract class Item implements ItemInterface{
     //Implemented in your own way
-    public Item(String getName, ArrayList getStats){
-        //System.out.println(name);
+    public String name(){
+        String name = "";
+        return name;
+    }
+    
+    public ArrayList stats(){
+        
     }
 }
