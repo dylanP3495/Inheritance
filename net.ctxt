@@ -1,8 +1,0 @@
-#BlueJ class context
-comment0.target=net
-comment0.text=\r\n\ For\ catching\ fish.\ And\ dirty\ scum.\r\n\r\n\ @author\ Dylan\r\n\ @version\ 3.6.18\r\n
-comment1.params=dmg
-comment1.target=net(int)
-comment2.params=
-comment2.target=void\ Attack()
-numComments=3

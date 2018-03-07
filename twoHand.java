@@ -2,32 +2,23 @@
 /**
  * Write a description of class twoHand here.
  *
- * @author (your name)
- * @version (a version number or a date)
+ * @author Dylan
+ * @version 3.7.18
  */
-public class twoHand extends melee
+public abstract class twoHand extends melee
 {
-    // instance variables - replace the example below with your own
-    private int x;
-
-    /**
-     * Constructor for objects of class twoHand
-     */
-    public twoHand()
-    {
-        // initialise instance variables
-        x = 0;
+    public int attack(){
+        int dmg = 0;
+        return dmg;
     }
 
-    /**
-     * An example of a method - replace this comment with your own
-     *
-     * @param  y  a sample parameter for a method
-     * @return    the sum of x and y
-     */
-    public int sampleMethod(int y)
-    {
-        // put your code here
-        return x + y;
+    public boolean parry(){
+        boolean parry = true;
+        return parry;
+    }
+
+
+    public twoHand(int dmg){
+        super(dmg);   
     }
 }

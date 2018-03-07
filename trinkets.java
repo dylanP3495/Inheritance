@@ -3,7 +3,7 @@
  * Write a description of class trinkets here.
  *
  * @author Dylan
- * @version 2.7.18
+ * @version 3.8.18
  */
 public abstract class trinkets extends Item
 {

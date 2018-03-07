@@ -1,8 +1,8 @@
 #BlueJ class context
 comment0.target=heavyXBow
 comment0.text=\r\n\ Write\ a\ description\ of\ class\ heavyXBow\ here.\r\n\r\n\ @author\ Dylan\r\n\ @version\ 2.28.18\r\n
-comment1.params=dmg
-comment1.target=heavyXBow(int)
+comment1.params=
+comment1.target=heavyXBow()
 comment2.params=
 comment2.target=void\ Attack()
 numComments=3

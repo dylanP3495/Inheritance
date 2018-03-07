@@ -10,8 +10,8 @@ public class shortbow extends ranged
 {
     String name = "Shortbow";
 
-    public shortbow(int dmg){
-        super (dmg);
+    public shortbow(){
+        super (Dice.d6());
     }
     
         public void Attack(){
@@ -22,6 +22,6 @@ public class shortbow extends ranged
         }else{
             dmg = Dice.d6();
         }
-        System.out.println("You hit them with your"+ name +". You did 4 damage. Congrats bud.");
+        System.out.println("You hit them with your"+ name +". You did "+dmg+" damage. Congrats bud.");
     }
 }

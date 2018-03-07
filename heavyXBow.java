@@ -8,8 +8,8 @@
 public class heavyXBow extends crossbow
 {
     String name = "Heavy Crossbow";
-    public heavyXBow(int dmg){
-        super (dmg);
+    public heavyXBow(){
+        super (Dice.d10());
     }
 
     public void Attack(){
@@ -20,6 +20,6 @@ public class heavyXBow extends crossbow
         }else{
             dmg = Dice.d10();
         }
-        System.out.println("You hit them with your"+ name +". You did 4 damage. Congrats bud.");
+        System.out.println("You hit them with your"+ name +". You did "+dmg+" damage. Congrats bud.");
     }
 }

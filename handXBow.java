@@ -8,8 +8,8 @@
 public class handXBow extends crossbow
 {
     String name = "Hand Crossbow";
-    public handXBow(int dmg){
-        super (dmg);
+    public handXBow(){
+        super (Dice.d6());
     }
     
     public void Attack(){

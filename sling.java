@@ -8,9 +8,8 @@
 public class sling extends ranged
 {
     String name = "Sling";
-    public sling(int dmg)
-    {
-        super(dmg);
+    public sling(){
+        super(Dice.d4());
     }
 
     public void Attack(){

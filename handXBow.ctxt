@@ -1,8 +1,8 @@
 #BlueJ class context
 comment0.target=handXBow
 comment0.text=\r\n\ Write\ a\ description\ of\ class\ handXBow\ here.\r\n\r\n\ @author\ Dylan\r\n\ @version\ 2.27.18\r\n
-comment1.params=dmg
-comment1.target=handXBow(int)
+comment1.params=
+comment1.target=handXBow()
 comment2.params=
 comment2.target=void\ Attack()
 numComments=3
