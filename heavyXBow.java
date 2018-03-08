@@ -15,11 +15,12 @@ public class heavyXBow extends crossbow
     public void Attack(){
         int roll = Dice.d20();
         int dmg;
+        String dmgType = "piercing";
         if(roll >= 19){
             dmg = Dice.d10() + Dice.d10();
         }else{
             dmg = Dice.d10();
         }
-        System.out.println("You hit them with your"+ name +". You did "+dmg+" damage. Congrats bud.");
+        System.out.println("You hit them with your"+ name +". You did "+dmg+" "+dmgType+"damage. Congrats bud.");
     }
 }

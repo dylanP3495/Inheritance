@@ -12,15 +12,16 @@ public class BatLeth extends twoHand
     public BatLeth(){
         super(Dice.d20());
     }
-    
-        public void Attack(){
+
+    public void Attack(){
         int roll = Dice.d20();
         int dmg;
+        String dmgType = "annihilation";
         if(roll >= 19){
             dmg = Dice.d20() + Dice.d20() + Dice.d20() + Dice.d20();
         }else{
             dmg = Dice.d20()+ Dice.d20();
         }
-        System.out.println("You hit them with your"+ name +". You did "+dmg+" damage. Congrats bud.");
+        System.out.println("You hit them with your"+ name +". You did "+dmg+" "+dmgType+" damage. Congrats bud.");
     }
 }

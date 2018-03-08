@@ -7,27 +7,20 @@
  */
 public class shortsword extends oneHand
 {
-    // instance variables - replace the example below with your own
-    private int x;
-
-    /**
-     * Constructor for objects of class shortsword
-     */
-    public shortsword()
-    {
-        // initialise instance variables
-        x = 0;
+    String name = "ShortSword";
+    public shortsword(){
+        super (Dice.d6());
     }
 
-    /**
-     * An example of a method - replace this comment with your own
-     *
-     * @param  y  a sample parameter for a method
-     * @return    the sum of x and y
-     */
-    public int sampleMethod(int y)
-    {
-        // put your code here
-        return x + y;
+    public void Attack(){
+        int roll = Dice.d20();
+        int dmg;
+        String dmgType = "piercing";
+        if(roll >= 19){
+            dmg = Dice.d6() + Dice.d6();
+        }else{
+            dmg = Dice.d6();
+        }
+        System.out.println("You hit them with your"+ name +". You did "+ dmg +" "+ dmgType +"damage. Congrats bud.");
     }
 }
